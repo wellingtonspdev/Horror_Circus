@@ -42,7 +42,13 @@ Evidência local real: `evidence/regions-local/validation.json`, `desktop.png` e
 
 ## GitHub e produção
 
-A aplicação anteriormente publicada, antes sem versionamento de código no GitHub, foi registrada no commit `dda5478`. A mudança regional e os contratos estão prontos para publicação. A validação remota será registrada após o deploy.
+A aplicação anteriormente publicada, antes sem versionamento de código no GitHub, foi registrada no commit `dda5478`. A implementação regional foi publicada em `main` no commit `5b79ba34506e3232da9f81ff2badeb337d6c6f0d`.
+
+**PASS — produção validada em https://astrochange.wellingtonsp.uk.** O push acionou automaticamente o deployment Vercel `dpl_6JUNdwYvtmKKoPpMgR4Pqa5HjEdN`, com as funções `/api/results` e `/api/regions` na região `gru1`.
+
+O ensaio remoto recebeu os seis recortes, totalizando 27 UFs e exterior, todos com assinatura verificada e sem fontes stale. Conferiu somas de votos e seções, ausência de definição matemática nos recortes, as sete resoluções, navegação até São Paulo e polling regional com intervalo de 15,028 segundos. Sem erros de console ou requests falhos. Entradas inválidas na API retornam HTTP 400; o endpoint nacional permaneceu HTTP 200 com JWS validado.
+
+Evidência: `evidence/regions-production/validation.json`, `desktop.png` e `mobile.png`. Os screenshots ilustram uma captura datada da totalização, não uma previsão ou arquivo final permanente.
 
 ## Limites
 

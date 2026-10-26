@@ -1,5 +1,7 @@
 # Astro Change — Deploy Vercel
 
+Atualização regional: código sincronizado com GitHub em `main`, deploy automático validado em `dpl_6JUNdwYvtmKKoPpMgR4Pqa5HjEdN`, commit `5b79ba3`. Consulte [REGIONAL_RESULTS_REPORT.md](REGIONAL_RESULTS_REPORT.md) para validação das 27 UFs e exterior. O restante deste documento registra a publicação inicial.
+
 ## Publicação
 
 **PASS — aplicação completa publicada e validada em produção.**

@@ -2,6 +2,8 @@
 
 ## Escopo aprovado pela solicitação
 
+Execução concluída e publicada. Resultados e limites em [REGIONAL_RESULTS_REPORT.md](REGIONAL_RESULTS_REPORT.md).
+
 Implementar e publicar uma área regional independente do placar nacional, preservando identidade, áudio, acessibilidade e contratos existentes. Cobrir as cinco macrorregiões, as 27 UFs e o exterior em recorte separado.
 
 ## Contrato da fonte
