@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-26T00:23:39.526Z",
+  "deploymentId": "dpl_7vAedJNWR4AzXbQvJDBdbigvu979",
+  "url": "https://astro-change-three.vercel.app",
+  "requests": [
+    {
+      "path": "/",
+      "status": 200,
+      "cache": "HIT",
+      "age": "91",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/api/results",
+      "status": 200,
+      "cache": "MISS",
+      "age": "0",
+      "contentType": "application/json; charset=utf-8",
+      "verified": true,
+      "stale": false,
+      "idg": "4147904"
+    },
+    {
+      "path": "/api/results",
+      "status": 200,
+      "cache": "HIT",
+      "age": "0",
+      "contentType": "application/json; charset=utf-8",
+      "verified": true,
+      "stale": false,
+      "idg": "4147904"
+    },
+    {
+      "path": "/assets/audio/audio_circo.mp3",
+      "status": 200,
+      "cache": "HIT",
+      "age": "78",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "path": "/assets/tse/candidates/manifest.json",
+      "status": 200,
+      "cache": "MISS",
+      "age": "0",
+      "contentType": "application/json; charset=utf-8"
+    }
+  ],
+  "runtimeCacheRestoreObserved": true,
+  "conditional304Observed": true
+}

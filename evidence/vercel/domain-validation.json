@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-26T00:33:30.375Z",
+  "domain": "astrochange.wellingtonsp.uk",
+  "cname": "f456318f02e7d6b9.vercel-dns-017.com",
+  "pageStatus": 200,
+  "certificate": {
+    "issuer": "YR1",
+    "protocol": "TLS 1.3",
+    "subjectName": "astrochange.wellingtonsp.uk",
+    "validFrom": 1792971249,
+    "validTo": 1800747248
+  },
+  "apiStatus": 200,
+  "verified": true,
+  "stale": false
+}

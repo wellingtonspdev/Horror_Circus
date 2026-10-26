@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "regions": ["gru1"],
+  "functions": {
+    "api/results.ts": {
+      "maxDuration": 30,
+      "includeFiles": "astro-change-package/config/tse-public-key-2026.jwk.json"
+    }
+  },
+  "env": { "TSE_FORMAT": "jws" },
+  "build": { "env": { "VITE_DATA_MODE": "live" } },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

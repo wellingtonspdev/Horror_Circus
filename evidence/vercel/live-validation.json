@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-26T00:22:25.649Z",
+  "mode": "live",
+  "applicationUrl": "https://astro-change-three.vercel.app/",
+  "verified": true,
+  "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.jws",
+  "generationId": "4149573",
+  "layouts": [
+    {
+      "width": 320,
+      "height": 568,
+      "scrollWidth": 320,
+      "percentBottom": [
+        331.484375,
+        545.15625
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 375,
+      "percentBottom": [
+        395.484375,
+        593.96875
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "percentBottom": [
+        395.484375,
+        593.96875
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "percentBottom": [
+        515.6875,
+        515.6875
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "percentBottom": [
+        547.28125,
+        547.28125
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "percentBottom": [
+        550.796875,
+        550.796875
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "percentBottom": [
+        582.984375,
+        582.984375
+      ],
+      "photos": [
+        true,
+        true
+      ]
+    }
+  ],
+  "requestCount": 4,
+  "intervals": [
+    5708,
+    5034,
+    5020
+  ],
+  "metrics": {
+    "lcp": 2484,
+    "cls": 0.02381997487260481
+  },
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Astro Change mark</title>
+  <desc id="desc">Eight-point star rising above a dark circus tent arch.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#8F6A32"/>
+      <stop offset="0.5" stop-color="#D4B06C"/>
+      <stop offset="1" stop-color="#9A7237"/>
+    </linearGradient>
+    <linearGradient id="velvet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9B1723"/>
+      <stop offset="1" stop-color="#4E080F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="235" fill="#080607" stroke="url(#gold)" stroke-width="10"/>
+  <path d="M256 56l21 75 58-49-19 76 79-11-66 44 71 36-81-2 28 75-61-52-30 75-30-75-61 52 28-75-81 2 71-36-66-44 79 11-19-76 58 49z" fill="url(#gold)" opacity=".96"/>
+  <path d="M92 366c39-105 102-158 164-158s125 53 164 158" fill="none" stroke="url(#velvet)" stroke-width="70" stroke-linecap="round"/>
+  <path d="M117 366c35-82 86-123 139-123s104 41 139 123" fill="#080607" stroke="url(#gold)" stroke-width="8"/>
+  <path d="M157 365c27-57 62-85 99-85s72 28 99 85" fill="none" stroke="#C39A5A" stroke-width="4" opacity=".75"/>
+  <circle cx="256" cy="187" r="14" fill="#F4EEE4" stroke="#C39A5A" stroke-width="5"/>
+</svg>

@@ -1,0 +1,59 @@
+{
+  "source": "TSE EA20",
+  "snapshotGeneratedAt": "25/10/2026 19:58:07",
+  "election": {
+    "code": "6258",
+    "round": 2,
+    "scope": "br",
+    "officeCode": 1,
+    "officeName": "Presidente",
+    "phase": "official",
+    "status": "partial",
+    "final": false,
+    "mathematicallyDefined": false,
+    "generationId": "4019764"
+  },
+  "progress": {
+    "sectionsTotal": 499248,
+    "sectionsCounted": 103678,
+    "sectionsPending": 395570,
+    "percentCounted": 20.77
+  },
+  "turnout": {
+    "eligibleVoters": 158745502,
+    "turnout": 26510611,
+    "turnoutPercent": 80.58,
+    "abstentions": 6390295,
+    "abstentionPercent": 19.42
+  },
+  "votes": {
+    "total": 26510611,
+    "valid": 25719594,
+    "blank": 271888,
+    "null": 519129
+  },
+  "candidates": [
+    {
+      "number": 22,
+      "candidateId": "280002551544",
+      "ballotName": "FLAVIO BOLSONARO",
+      "fullName": "FLAVIO NANTES BOLSONARO",
+      "party": "PL",
+      "votes": 12985594,
+      "percent": 50.49,
+      "elected": false,
+      "photoUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002551544.jpeg"
+    },
+    {
+      "number": 13,
+      "candidateId": "280002542548",
+      "ballotName": "LULA",
+      "fullName": "LUIZ INÁCIO LULA DA SILVA",
+      "party": "PT",
+      "votes": 12734000,
+      "percent": 49.51,
+      "elected": false,
+      "photoUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002542548.jpeg"
+    }
+  ]
+}

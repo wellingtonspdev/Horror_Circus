@@ -1,0 +1,41 @@
+:root {
+  --ac-pitch-black: #080607;
+  --ac-velvet-black: #15090c;
+  --ac-stage-black: #0d090a;
+  --ac-carnival-red: #720d17;
+  --ac-blood-marquee: #a81722;
+  --ac-deep-wine: #4e080f;
+  --ac-antique-gold: #c39a5a;
+  --ac-antique-gold-hi: #d4b06c;
+  --ac-antique-gold-lo: #8f6a32;
+  --ac-old-bone: #e7dcc5;
+  --ac-stage-white: #f4eee4;
+  --ac-ash: #918a82;
+  --ac-danger: #c73a45;
+  --ac-success: #79a37d;
+  --ac-info: #8ca4ad;
+
+  --ac-radius-xs: 4px;
+  --ac-radius-sm: 8px;
+  --ac-radius-md: 14px;
+  --ac-radius-lg: 22px;
+  --ac-radius-display: 30px;
+
+  --ac-shadow-stage: 0 24px 80px rgba(0,0,0,.52);
+  --ac-shadow-gold: 0 0 24px rgba(195,154,90,.18);
+  --ac-shadow-red: 0 0 32px rgba(168,23,34,.2);
+
+  --ac-ease-stage: cubic-bezier(.22,.61,.36,1);
+  --ac-ease-curtain: cubic-bezier(.76,0,.24,1);
+  --ac-duration-fast: 140ms;
+  --ac-duration-ui: 220ms;
+  --ac-duration-panel: 420ms;
+  --ac-duration-scene: 900ms;
+}
+
+[data-motion="reduced"] {
+  --ac-duration-fast: 0ms;
+  --ac-duration-ui: 0ms;
+  --ac-duration-panel: 0ms;
+  --ac-duration-scene: 0ms;
+}

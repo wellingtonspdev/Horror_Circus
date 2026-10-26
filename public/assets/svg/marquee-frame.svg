@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#8F6A32"/><stop offset=".5" stop-color="#D4B06C"/><stop offset="1" stop-color="#8F6A32"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M56 36h1088l20 42v264l-20 42H56l-20-42V78z" fill="#10080A" stroke="url(#g)" stroke-width="12"/>
+  <path d="M90 70h1020l16 32v216l-16 32H90l-16-32V102z" fill="none" stroke="#720D17" stroke-width="12"/>
+  <g fill="#E7DCC5" stroke="#C39A5A" stroke-width="3" filter="url(#glow)">
+    <!-- top bulbs -->
+    <circle cx="100" cy="56" r="8"/><circle cx="180" cy="56" r="8"/><circle cx="260" cy="56" r="8"/><circle cx="340" cy="56" r="8"/><circle cx="420" cy="56" r="8"/><circle cx="500" cy="56" r="8"/><circle cx="580" cy="56" r="8"/><circle cx="660" cy="56" r="8"/><circle cx="740" cy="56" r="8"/><circle cx="820" cy="56" r="8"/><circle cx="900" cy="56" r="8"/><circle cx="980" cy="56" r="8"/><circle cx="1060" cy="56" r="8"/>
+    <!-- bottom bulbs -->
+    <circle cx="100" cy="364" r="8"/><circle cx="180" cy="364" r="8"/><circle cx="260" cy="364" r="8"/><circle cx="340" cy="364" r="8"/><circle cx="420" cy="364" r="8"/><circle cx="500" cy="364" r="8"/><circle cx="580" cy="364" r="8"/><circle cx="660" cy="364" r="8"/><circle cx="740" cy="364" r="8"/><circle cx="820" cy="364" r="8"/><circle cx="900" cy="364" r="8"/><circle cx="980" cy="364" r="8"/><circle cx="1060" cy="364" r="8"/>
+  </g>
+  <g fill="#C39A5A"><circle cx="56" cy="120" r="6"/><circle cx="56" cy="180" r="6"/><circle cx="56" cy="240" r="6"/><circle cx="56" cy="300" r="6"/><circle cx="1144" cy="120" r="6"/><circle cx="1144" cy="180" r="6"/><circle cx="1144" cy="240" r="6"/><circle cx="1144" cy="300" r="6"/></g>
+</svg>
