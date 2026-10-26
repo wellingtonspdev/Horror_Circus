@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { resultsHandler } from "./server/handler.ts";
+import { regionsHandler } from "./server/regions-handler.ts";
 import path from "node:path";
 export default defineConfig({
   plugins: [
@@ -11,6 +12,7 @@ export default defineConfig({
       name: "official-results",
       configureServer(server) {
         server.middlewares.use("/api/results", resultsHandler);
+        server.middlewares.use("/api/regions", regionsHandler);
       },
     },
   ],

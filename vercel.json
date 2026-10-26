@@ -5,6 +5,10 @@
   "outputDirectory": "dist",
   "regions": ["gru1"],
   "functions": {
+    "api/regions.ts": {
+      "maxDuration": 60,
+      "includeFiles": "astro-change-package/config/tse-public-key-2026.jwk.json"
+    },
     "api/results.ts": {
       "maxDuration": 30,
       "includeFiles": "astro-change-package/config/tse-public-key-2026.jwk.json"

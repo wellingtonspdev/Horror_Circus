@@ -10,6 +10,7 @@
 - Chave fixa: `astro-change-package/config/tse-public-key-2026.jwk.json`.
 - Snapshot bruto de teste: EA20 obtido nesta implementação, `tests/ea20-official.json`. Nunca usado como fallback live.
 - Fixture normalizada fornecida: isolada atrás de `VITE_DATA_MODE=fixture`, com aviso explícito.
+- Recortes estaduais e exterior: arquivos EA20/JWS `/oficial/ele2026/6258/dados/<uf>/<uf>-c0001-e006258-u.jws`, conforme o manual EA20. Exemplos de teste oficiais em `tests/ea20-sp-official.json`, `tests/ea20-ba-official.json` e `tests/ea20-zz-official.json`. Macrorregiões são somas explicitamente identificadas pela aplicação; não representam novo payload assinado do TSE. Exterior é exibido separadamente das cinco macrorregiões.
 
 Resultados são arquivos públicos oficiais, não conteúdo sob licença MIT do aplicativo. Referências originais adicionais: `astro-change-package/SOURCES.md`.
 

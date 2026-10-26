@@ -4,6 +4,7 @@ import { verifyJws, SignatureError } from "../src/lib/tse/jws.ts";
 import { CATALOG, resultUrl } from "../src/lib/tse/urls.ts";
 import type { ResultEnvelope } from "../src/lib/tse/types.ts";
 import { envelopeSchema } from "../src/lib/tse/schemas.ts";
+import type { TseScope } from "../src/lib/tse/geography.ts";
 export interface CollectorCache {
   get(key: string): Promise<unknown>;
   set(key: string, value: unknown, options: { ttl: number }): Promise<unknown>;
@@ -64,6 +65,7 @@ export class Collector {
     private format = "json",
     private now = () => Date.now(),
     private cache?: CollectorCache,
+    private scope: TseScope = "br",
   ) {}
   async get() {
     if (this.pending) return this.pending;
@@ -77,7 +79,7 @@ export class Collector {
     return this.pending;
   }
   private async refresh(): Promise<ResultEnvelope> {
-    const key = `president-6258-v1-${this.format}`;
+    const key = `president-6258-v2-${this.scope}-${this.format}`;
     if (this.cache) {
       try {
         const stored = cacheStateSchema.safeParse(await this.cache.get(key));
@@ -89,7 +91,7 @@ export class Collector {
           const state = stored.data;
           if (
             state.last &&
-            (state.last.sourceUrl !== resultUrl(this.format) ||
+            (state.last.sourceUrl !== resultUrl(this.format, this.scope) ||
               (this.format === "jws" && !state.last.verified))
           )
             throw new Error("Unexpected cached source");
@@ -140,7 +142,7 @@ export class Collector {
   }
   private async collect(): Promise<ResultEnvelope> {
     const started = this.now();
-    const url = resultUrl(this.format);
+    const url = resultUrl(this.format, this.scope);
     try {
       if (!this.discovered) {
         try {
@@ -179,7 +181,7 @@ export class Collector {
           throw new Error("TSE payload exceeds size limit");
         const payload =
           this.format === "jws" ? await verifyJws(text) : JSON.parse(text);
-        const result = normalizeEA20(payload);
+        const result = normalizeEA20(payload, this.scope);
         this.last = {
           result,
           verified: this.format === "jws",

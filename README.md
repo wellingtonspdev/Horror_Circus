@@ -54,6 +54,16 @@ npm run dev
 
 `npm run assets:tse` atualiza fotos e manifesto exclusivamente pelo EA20 oficial. Falha de imagem recebe símbolo neutro.
 
+## Visualização regional
+
+Em **A apuração pelo Brasil**, clique em **Explorar por região**. Escolha Norte, Nordeste, Centro-Oeste, Sudeste, Sul ou Exterior; selecione uma UF para abrir seus cards e estatísticas. O placar nacional permanece independente.
+
+`/api/regions?region=sudeste` consulta somente as UFs selecionadas, com três requisições simultâneas no máximo. Cada arquivo estadual possui validação JWS, schema, cache, ETag, backoff e fallback próprios. O cliente atualiza o recorte a cada 15 segundos, pausa em segundo plano e para quando todas as fontes indicam totalização final.
+
+Macrorregiões são **consolidações da aplicação**, com somas de votos e seções e percentuais calculados sobre os totais. Não são arquivos regionais assinados pelo TSE. O selo indica a verificação das fontes estaduais. UF e Exterior preservam os percentuais oficiais. Fontes ausentes ou sem autorização de divulgação impedem apresentar subtotal incompleto como total regional. Nenhum recorte declara vencedor nacional ou dispara o Grand Finale.
+
+Plano e contratos: [`docs/REGIONAL_RESULTS_PLAN.md`](docs/REGIONAL_RESULTS_PLAN.md). Entrega e evidências: [`docs/REGIONAL_RESULTS_REPORT.md`](docs/REGIONAL_RESULTS_REPORT.md).
+
 ## Documentação canônica
 
 Especificações: [`astro-change-package/docs/IMPLEMENTATION_HANDOFF.md`](astro-change-package/docs/IMPLEMENTATION_HANDOFF.md). As duas cópias integrais na raiz do pacote viraram links para os documentos canônicos; o conteúdo permanece em `docs/`.

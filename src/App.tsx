@@ -24,6 +24,7 @@ const SourceMethodModal = lazy(() =>
     default: m.SourceMethodModal,
   })),
 );
+const RegionalResults = lazy(() => import("./components/regional-results"));
 import { Skeleton } from "./components/ui/skeleton";
 import { useElection } from "./lib/use-election";
 import { fixtureMode } from "./lib/tse/client";
@@ -230,6 +231,9 @@ export default function App() {
                 </Suspense>
               </>
             )}
+            <Suspense fallback={null}>
+              <RegionalResults reduced={reduced} />
+            </Suspense>
             <TSESourceBadge data={data} />
           </main>
           <footer className="footer">

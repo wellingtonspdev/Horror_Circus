@@ -22,8 +22,8 @@ export const ea20Schema = z.object({
   ele: z.literal("6258"),
   t: z.literal("2"),
   f: z.literal("o"),
-  tpabr: z.literal("br"),
-  cdabr: z.literal("br"),
+  tpabr: z.enum(["br", "uf"]),
+  cdabr: z.string(),
   dg: z.string().regex(/^\d{2}\/\d{2}\/\d{4}$/),
   hg: z.string().regex(/^\d{2}:\d{2}:\d{2}$/),
   idg: z.string().min(1),
@@ -112,4 +112,3 @@ export const envelopeSchema = z.object({
   sourceUrl: z.string().url(),
   error: z.string().optional(),
 });
-

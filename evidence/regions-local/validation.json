@@ -1,0 +1,364 @@
+{
+  "checkedAt": "2026-10-26T00:53:34.205Z",
+  "applicationUrl": "http://127.0.0.1:4180",
+  "coverage": [
+    {
+      "region": "norte",
+      "status": 200,
+      "states": [
+        {
+          "code": "ac",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.jws",
+          "generationId": "4216617",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "ap",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.jws",
+          "generationId": "4215503",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "am",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.jws",
+          "generationId": "4217646",
+          "generatedAt": "2026-10-25T21:52:27-03:00"
+        },
+        {
+          "code": "pa",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.jws",
+          "generationId": "4218242",
+          "generatedAt": "2026-10-25T21:52:29-03:00"
+        },
+        {
+          "code": "ro",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.jws",
+          "generationId": "4220150",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "rr",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.jws",
+          "generationId": "4220149",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "to",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.jws",
+          "generationId": "4221871",
+          "generatedAt": "2026-10-25T21:51:57-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 5023795,
+          "percent": 50
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 5023306,
+          "percent": 50
+        }
+      ],
+      "totalVotes": 10316009,
+      "countedSections": 43763
+    },
+    {
+      "region": "nordeste",
+      "status": 200,
+      "states": [
+        {
+          "code": "al",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.jws",
+          "generationId": "4217647",
+          "generatedAt": "2026-10-25T21:52:27-03:00"
+        },
+        {
+          "code": "ba",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.jws",
+          "generationId": "4216623",
+          "generatedAt": "2026-10-25T21:52:33-03:00"
+        },
+        {
+          "code": "ce",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.jws",
+          "generationId": "4220155",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "ma",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.jws",
+          "generationId": "4216620",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "pb",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.jws",
+          "generationId": "4215506",
+          "generatedAt": "2026-10-25T21:52:27-03:00"
+        },
+        {
+          "code": "pe",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.jws",
+          "generationId": "4221887",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "pi",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.jws",
+          "generationId": "4217653",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "rn",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.jws",
+          "generationId": "4217648",
+          "generatedAt": "2026-10-25T21:52:27-03:00"
+        },
+        {
+          "code": "se",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.jws",
+          "generationId": "4221884",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 24443795,
+          "percent": 69.37
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 10793682,
+          "percent": 30.63
+        }
+      ],
+      "totalVotes": 36325618,
+      "countedSections": 140794
+    },
+    {
+      "region": "centro-oeste",
+      "status": 200,
+      "states": [
+        {
+          "code": "df",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.jws",
+          "generationId": "4215504",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "go",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.jws",
+          "generationId": "4216619",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "mt",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.jws",
+          "generationId": "4215505",
+          "generatedAt": "2026-10-25T21:52:26-03:00"
+        },
+        {
+          "code": "ms",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.jws",
+          "generationId": "4220951",
+          "generatedAt": "2026-10-25T21:51:56-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 3733919,
+          "percent": 39.99
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 5603867,
+          "percent": 60.01
+        }
+      ],
+      "totalVotes": 9595354,
+      "countedSections": 38048
+    },
+    {
+      "region": "sudeste",
+      "status": 200,
+      "states": [
+        {
+          "code": "es",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.jws",
+          "generationId": "4216605",
+          "generatedAt": "2026-10-25T21:51:57-03:00"
+        },
+        {
+          "code": "mg",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.jws",
+          "generationId": "4218243",
+          "generatedAt": "2026-10-25T21:52:34-03:00"
+        },
+        {
+          "code": "rj",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.jws",
+          "generationId": "4217650",
+          "generatedAt": "2026-10-25T21:52:28-03:00"
+        },
+        {
+          "code": "sp",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.jws",
+          "generationId": "4219709",
+          "generatedAt": "2026-10-25T21:52:37-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 24020043,
+          "percent": 47.23
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 26835854,
+          "percent": 52.77
+        }
+      ],
+      "totalVotes": 52868042,
+      "countedSections": 203109
+    },
+    {
+      "region": "sul",
+      "status": 200,
+      "states": [
+        {
+          "code": "pr",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.jws",
+          "generationId": "4216622",
+          "generatedAt": "2026-10-25T21:52:32-03:00"
+        },
+        {
+          "code": "rs",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.jws",
+          "generationId": "4220966",
+          "generatedAt": "2026-10-25T21:52:35-03:00"
+        },
+        {
+          "code": "sc",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.jws",
+          "generationId": "4220159",
+          "generatedAt": "2026-10-25T21:52:30-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 6809370,
+          "percent": 37.42
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 11385893,
+          "percent": 62.58
+        }
+      ],
+      "totalVotes": 18711280,
+      "countedSections": 72015
+    },
+    {
+      "region": "exterior",
+      "status": 200,
+      "states": [
+        {
+          "code": "zz",
+          "verified": true,
+          "sourceUrl": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/zz/zz-c0001-e006258-u.jws",
+          "generationId": "4220154",
+          "generatedAt": "2026-10-25T21:52:27-03:00"
+        }
+      ],
+      "candidateVotes": [
+        {
+          "candidateId": "280002542548",
+          "votes": 194563,
+          "percent": 53.63
+        },
+        {
+          "candidateId": "280002551544",
+          "votes": 168210,
+          "percent": 46.37
+        }
+      ],
+      "totalVotes": 372357,
+      "countedSections": 1310
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "height": 568,
+      "scrollWidth": 320
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 375
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920
+    }
+  ],
+  "regionalPollIntervals": [
+    15022
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}
